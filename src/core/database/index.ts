@@ -2,7 +2,7 @@ import "reflect-metadata";
 import { DataSource } from "typeorm";
 import {
     DATABASE, DB_USERNAME,
-    PASSWORD, PG_PORT, HOST,
+    DB_PASSWORD, PG_PORT, HOST,
 } from "../constants";
 import path from "path";
 import fs from 'fs';
